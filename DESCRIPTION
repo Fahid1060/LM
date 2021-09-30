@@ -1,0 +1,12 @@
+Package: LM
+Type: Package
+Title: LM is normalizaton method for normalization of scRNA-seq.
+Version: 1.0
+Date: 2021-09-03
+Author: Fahid Ahmad Ahsan
+Maintainer: Who to complain to <fahidahmad1060@gmail.com>
+Description: LM is a method for normalization of scRNA-seq data. Method takes cleaned data set by performing its functon LM.Clean and Raw data to perform normalization. LM.Norm is a function in LM method to perform normalization and return normalized data matrix.
+License: GPL-3
+Imports: Rcpp (>= 1.0.7)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.2
